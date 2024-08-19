@@ -26,8 +26,9 @@ const Header = () => {
           className="outline-none flex-1 bg-transparent"
           type="text"
         />
-        </div>
         <BiSearch size={25} />
+        </div>
+        
         <div className="flex items-center gap-5">
             <ThemeComp/>
            
