@@ -2,9 +2,7 @@ import Image from "next/image";
 import React from "react";
 
 const getMovie = async (id) => {
-  const res = await fetch(
-    `https://api.themoviedb.org/3/movie/${id}?api_key=accbcfc7b4176186d61e12c389d6cded`
-  );
+  const res = await fetch(`https://api.themoviedb.org/3/movie/${id}?api_key=accbcfc7b4176186d61e12c389d6cded`);
 
   return await res.json();
 };
@@ -19,6 +17,7 @@ const Page = async ({ params }) => {
   return (
     <div className="relative p-7 min-h-screen">
       <Image
+      alt="hata var"
       className="rounded-lg"
         style={{ objectFit: "cover" }}
         fill

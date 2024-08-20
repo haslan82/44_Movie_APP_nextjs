@@ -26,12 +26,12 @@ const Page = async ({ searchParams }) => {
         <div>No Results Found!!!</div>
       ) : (
         <div className="flex flex-wrap gap-3 items-center justify-center ">
-          {data.results.map((dt, key) => (
+          {data.results.map((dt, i) => (
             <div
               className=" max-h-[300px] object-cover overflow-hidden  rounded-lg  "
               style={{ height: "300px", width: "470px" }}
             >
-              <Movies key={key} dt={dt} />
+              <Movies key={i} dt={dt} />
             </div>
           ))}
         </div>

@@ -6,12 +6,12 @@ const Movies = ({ dt }) => {
   console.log(dt);
 
   const router = useRouter();
-  const dtvote = dt?.vote_average >= 7 ? "bg-green-600" : "bg-red-600";
+   const dtvote = dt?.vote_average >= 7 ? "bg-green-600" : "bg-red-600";
 return(
   <div className="rounded-lg">
     <div
       onClick={() => router.push(`/movie/${dt?.id}`)}
-      className="min-w-[470px] relative cursor-pointer rounded-lg imgContainer cursor-pointer"
+      className="min-w-[470px] relative rounded-lg imgContainer cursor-pointer"
     >
       <Image
         style={{ objectFit: "cover" }}
