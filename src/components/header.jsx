@@ -26,7 +26,7 @@ const Header = () => {
   };
   return (
     <div className="flex items-center gap-7 h-20 p-5">
-      <div className="bg-amber-600 rounded-lg  p-3 text-2xl font-bold">
+      <div className=" cursor-pointer bg-amber-600 rounded-lg  p-3 text-2xl font-bold">
         MovieApp
       </div>
       <div className="flex flex-1 items-center gap-2 border p-3 rounded-lg">
@@ -41,7 +41,7 @@ const Header = () => {
         <BiSearch size={25} />
       </div>
 
-      <div className="flex items-center gap-5">
+      <div className="flex items-center gap-5 bg-amber-600 rounded p-1">
         <ThemeComp />
 
         {menu.map((mn, i) => (

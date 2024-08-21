@@ -23,9 +23,9 @@ return(
       />
       <div className="absolute bottom-0 p-1 w-full h-full flex flex-col justify-end opacity-0 hover:opacity-100 transition-opacity ">
         <div className="text-2xl font-bold">{dt?.title}</div>
-        <div pt-3>
+        <div className=" flex my-3 gap-2 items-center">
           {/* {dt?.release_date} / {(dt?.vote_average).toFixed(1)} */}
-          {dt?.release_date} -{" "}
+          {dt?.release_date} / 
               <span className={`vote p-1 rounded-md ${dtvote}`}>
                 IMDB: {parseFloat(dt?.vote_average.toFixed(1))}
               </span>

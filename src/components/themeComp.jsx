@@ -14,7 +14,7 @@ const ThemeComp = () => {
   const themeMode = theme === "system" ? systemTheme : theme;
   //! console.log(themeMode, "themeMode")
   return (
-    <div>
+    <div >
       {mounted &&
         (themeMode === "light" ? (
           <MdDarkMode
@@ -26,7 +26,7 @@ const ThemeComp = () => {
           <MdOutlineLightMode
             onClick={() => setTheme("light")}
             size={25}
-            className="cursor-pointer"
+            className="font-bold text-2xl cursor-pointer  "
           />
         ))}
     </div>
