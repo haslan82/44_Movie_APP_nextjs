@@ -14,8 +14,7 @@ Bu proje Next.js ve Tailwindcss kullanılarak geliştirilmiş bir film uygulamas
 
 ## Gif
 
-![](/movie/public/Zight%20Recording%202024-08-21%20at%2004.31.16%20PM.gif)
-
+![](/public/Zight%20Recording%202024-08-21%20at%2004.31.16%20PM.gif)
 
 
 #  Designed by <a href="https://www.linkedin.com/in/h%C3%BCseyin-aslan-128519203/" target="_blank">Hüseyin ASLAN</a> 
