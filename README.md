@@ -1,6 +1,6 @@
 # 44_Movie_App_Nextjs
 
-Bu proje Next.js ve Tailwind CSS kullanılarak geliştirilmiş bir film uygulamasıdır. Uygulama, kullanıcıların film formatlarını görüntülemesine, film aramasına ve film ayrıntılarını görüntülemek için yönlendirme yapmasına olanak tanır.
+Bu proje Next.js ve Tailwindcss kullanılarak geliştirilmiş bir film uygulamasıdır. Uygulama, kullanıcıların film formatlarını görüntülemesine, film aramasına ve film ayrıntılarını görüntülemek için yönlendirme yapmasına olanak tanır.
 
 
 ## Kullanılan Kütüphaneler
