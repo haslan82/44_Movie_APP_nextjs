@@ -17,7 +17,6 @@ Bu proje Next.js ve Tailwindcss kullanılarak geliştirilmiş bir film uygulamas
 
 ![](/public/Zight%20Recording%202024-08-21%20at%2004.31.16%20PM.gif)
 
-<<<<<<< HEAD
 
 #  Designed by <a href="https://www.linkedin.com/in/huseyin-aslan-128519203/" target="_blank">Hüseyin ASLAN</a> 
 
